@@ -68,7 +68,6 @@ int main() {
 		}
 		if (!eleConjTemParReflexivo) ehReflexiva = false;
 	}
-
 	string mensagemReflexiva = ehReflexiva ? "A relação é reflexiva" : "A relação não é reflexiva";
 	cout << mensagemReflexiva  << endl;
 
@@ -78,7 +77,6 @@ int main() {
 			if ( x[i] == y[j] && y[i] == x [j]) ehSimetrica = true;
 		}
 	}
-
 	string mensagemSimetrica = ehSimetrica ? "A relação é simétrica": "A relação não é simétrica";
 	cout << mensagemSimetrica << endl;
 	
